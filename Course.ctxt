@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Course
+comment1.params=
+comment1.target=java.lang.String\ getcourseName()
+comment2.params=courseId\ courseName\ credits\ department
+comment2.target=Course(java.lang.String,\ java.lang.String,\ double,\ Department)
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

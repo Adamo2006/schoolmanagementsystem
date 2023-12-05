@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Teacher
+comment1.params=teacherId\ firstName\ lastName\ department
+comment1.target=Teacher(java.lang.String,\ java.lang.String,\ java.lang.String,\ Department)
+comment10.params=
+comment10.target=java.util.List\ getCourses()
+comment11.params=courses
+comment11.target=void\ setCourses(java.util.List)
+comment12.params=
+comment12.target=java.lang.String\ toString()
+comment2.params=
+comment2.target=java.lang.String\ getTeacherId()
+comment3.params=teacherId
+comment3.target=void\ setTeacherId(java.lang.String)
+comment4.params=
+comment4.target=java.lang.String\ getFirstName()
+comment5.params=firstName
+comment5.target=void\ setFirstName(java.lang.String)
+comment6.params=
+comment6.target=java.lang.String\ getLastName()
+comment7.params=lastName
+comment7.target=void\ setLastName(java.lang.String)
+comment8.params=
+comment8.target=Department\ getDepartment()
+comment9.params=department
+comment9.target=void\ setDepartment(Department)
+numComments=13

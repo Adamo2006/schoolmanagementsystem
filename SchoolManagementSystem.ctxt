@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=SchoolManagementSystem
+comment1.params=id\ name
+comment1.target=java.lang.String\ addDepartment(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=void\ displayDepartments()
+comment3.params=courseId\ courseName\ credits\ department
+comment3.target=java.lang.String\ addCourse(java.lang.String,\ java.lang.String,\ double,\ Department)
+comment4.params=teacherId\ firstName\ lastName\ department
+comment4.target=java.lang.String\ addTeacher(java.lang.String,\ java.lang.String,\ java.lang.String,\ Department)
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6
