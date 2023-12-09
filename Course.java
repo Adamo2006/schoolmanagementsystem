@@ -8,6 +8,7 @@ public class Course {
     private Teacher teacher;
     private Department department;
     private List<Student> students;
+    
 
     public String getcourseName() {
         return courseName;
@@ -22,7 +23,17 @@ public class Course {
         this.teacher = null;  // Initially, no teacher is assigned
     }
     
+public String getId() {
+        return courseId;
+    }
+    // Method to set the teacher of the course
+    public void setTeacher(Teacher teacher) {
+        this.teacher = teacher;
+    }
     
+     public List<Student> getStudents() {
+        return students;
+    }
 
     public String toString() {
         StringBuilder studentNames = new StringBuilder();

@@ -16,4 +16,6 @@ comment7.params=courses
 comment7.target=void\ setCourses(java.util.List)
 comment8.params=
 comment8.target=void\ printCourses()
-numComments=9
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=10

@@ -41,4 +41,13 @@ public class Department
             System.out.println(course.getcourseName());
         }
     }
+    
+    @Override
+    public String toString() {
+        return "Department{" +
+               "id='" + id + '\'' +
+               ", departmentName='" + name + '\'' +
+               '}';
+    }
+    
 }

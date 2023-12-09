@@ -1,13 +1,13 @@
 import java.util.List;
 import java.util.ArrayList;
 public class Student {
-    private int id;
+    private String id;
     private String fname;
     private String lname;
     private Department department;
     private List<Course> courses;
 
-    public Student(int id, String firstname,String lastname, Department department) {
+    public Student(String id, String firstname,String lastname, Department department) {
         this.id = id;
         this.fname = firstname;
         this.lname=lastname;
@@ -15,11 +15,11 @@ public class Student {
         courses = new ArrayList<>();
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -54,8 +54,16 @@ public class Student {
         this.courses = courses;
     }
 
-    @Override
+   @Override
     public String toString() {
-        return fname;
+        return "Student{" +
+               "id='" + id + '\'' +
+               ", fname='" + fname + '\'' +
+               ", lname='" + lname + '\'' +
+               ", department=" + department +
+               ", courseNum=" + courses.size() +
+               ", courses=" + courses +
+               '}';
     }
+
 }
