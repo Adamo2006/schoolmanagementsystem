@@ -36,7 +36,6 @@ public class SchoolManagementSystem {
     public String addCourse(String courseId, String courseName, double credits, Department department) {
         if (courses.size() < MAX_COURSES) {
             Course newCourse = new Course(courseId, courseName, credits, department);
-            courses.add(newCourse);
             return "\nCourse " + newCourse + " added successfully.";
         } else {
             return "Max courses reached, add a new course failed.";
@@ -46,7 +45,6 @@ public class SchoolManagementSystem {
      public String addTeacher(String teacherId, String firstName, String lastName, Department department) {
         if (teachers.size() < MAX_TEACHERS) {
             Teacher newTeacher = new Teacher(teacherId, firstName, lastName, department);
-            teachers.add(newTeacher);
             return "\nTeacher " + newTeacher + " added successfully.";
         } else {
             return "Max teacher reached, add a new teacher failed.";
